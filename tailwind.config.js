@@ -11,6 +11,12 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage: {
+        mainBackground: `url(/img/main-background.png)`,
+      },
+      fontFamily: {
+        islamic: ["var(--font-islamic)", "sans-serif"], // استخدام متغير CSS الذي عرفته
+      },
     },
   },
   plugins: [],

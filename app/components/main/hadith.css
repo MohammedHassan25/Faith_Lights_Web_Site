@@ -1,0 +1,29 @@
+.line-height-5 {
+  line-height: 2.5;
+}
+
+.spin {
+  animation: spin 20s linear infinite;
+}
+
+.hadith-content {
+  font-size: clamp(1rem, 3vw, 2rem)
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 1000px) {
+  .spin {
+    width: 3rem !important;
+  }
+  .mousqe {
+    width: 10rem !important;
+  }
+}
