@@ -1,0 +1,16 @@
+.para {
+}
+
+@media (max-width: 1250px) {
+  .display {
+    display: none !important;
+  }
+  .main {
+    text-align: center;
+    justify-content: center;
+  }
+  .para {
+    padding-bottom: 40px;
+    font-size: 22px !important;
+  }
+}
