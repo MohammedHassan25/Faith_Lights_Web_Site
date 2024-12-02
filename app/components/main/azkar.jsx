@@ -2,7 +2,7 @@ import "./azkar.css";
 
 export default function Azkar() {
   return (
-    <div className=" bg-azkarBackground bg-cover h-screen bg-slate-900 relative overflow-hidden">
+    <div className=" bg-azkarBackground bg-cover bg-center	 h-screen bg-slate-900 relative overflow-hidden">
       <div className="h-screen absolute w-full bg-black opacity-40 "></div>
       <img
         className="absolute circle-top"

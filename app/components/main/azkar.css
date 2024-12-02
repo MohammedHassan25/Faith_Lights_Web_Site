@@ -11,7 +11,7 @@
   top: -25%;
   width: 20rem;
   left: 20%;
-  opacity: 0.3;
+  opacity: 0.5;
   animation: spin 20s linear infinite;
   transform: translate(-50%);
 }
@@ -19,7 +19,7 @@
   bottom: -25%;
   width: 20rem;
   right: 20%;
-  opacity: 0.3;
+  opacity: 0.5;
   animation: spin 20s linear infinite;
 }
 

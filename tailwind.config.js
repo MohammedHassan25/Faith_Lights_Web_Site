@@ -14,6 +14,7 @@ module.exports = {
       backgroundImage: {
         mainBackground: `url(/img/main-background.png)`,
         azkarBackground:`url(/img/azkar-bg.jpg)`,
+        salatBackground:`url(/img/salat-bg.jpg)`
       },
       fontFamily: {
         islamic: ["var(--font-islamic)", "sans-serif"], // استخدام متغير CSS الذي عرفته
