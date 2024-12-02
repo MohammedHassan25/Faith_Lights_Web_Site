@@ -12,7 +12,7 @@ export default function Azkar() {
       <div className="flex justify-center items-center h-screen w-screen relative z-10">
         <div className="flex justify-between items-center flex-wrap w-full text-neutral-200 text-shadow-white main">
           <h1 className="text-8xl font-bold mt-5">الأذكار</h1>
-          <p className="text-4xl para">
+          <p className="text-4xl para font-semibold">
             متوفر الآن بعض الأدعية والأذكار المهمة مثل أذكار الصباح والمساء
             وأذكار دخول المسجد وغيرها
           </p>
