@@ -7,17 +7,13 @@ export default function Salat() {
           <h1 className="text-8xl font-bold">مواقيت الصلاة</h1>
           <p className="text-4xl para">
             دلوقتي تقدر تعرف مواقيت الصلاة بكل سهولة ودقة من أي مكان وفي أي وقت
-            موقعنا جاهز يساعدك على تنظيم وقتك والالتزام بصلاتك
+            علشان يساعدك على تنظيم وقتك والالتزام بصلاتك
           </p>
           <button class="bg-cyan-500 shadow-lg shadow-cyan-500/50 mx-auto p-6 w-40 rounded-2xl text-2xl font-bold ">
             <a href="/azkar">مواقيت الصلاة</a>
           </button>
         </div>
-        <img
-          className="h-full display"
-          src="./img/salat.png"
-          alt="azkar"
-        />
+        <img className="h-full display" src="./img/salat.png" alt="azkar" />
       </div>
     </div>
   );
