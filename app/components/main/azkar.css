@@ -83,6 +83,13 @@ button:hover {
     right: 50%;
     top: -15%;
   }
+  .font {
+    font-size: 60px
+  }
+  .media {
+    font-size: 1rem !important;
+    line-height: 0.5rem;
+  }
 }
 @media (max-width: 500px) {
   .circle-bottom {

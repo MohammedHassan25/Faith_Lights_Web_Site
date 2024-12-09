@@ -7,7 +7,14 @@
     justify-content: center;
   }
   .para {
-    padding-bottom: 40px;
+    padding-bottom: 35px;
     font-size: 22px !important;
+  }
+}
+
+@media (max-width: 750px) {
+  .media {
+    font-size: 1rem !important;
+    line-height: 0.5rem;
   }
 }

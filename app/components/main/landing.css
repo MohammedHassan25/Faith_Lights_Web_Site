@@ -32,3 +32,9 @@
 @keyframes open {
   from { width: 0 }
 }
+
+@media (max-width: 932px) {
+  .media-landing {
+    font-size: 30px;
+  }
+}

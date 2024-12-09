@@ -3,6 +3,9 @@ import "./globals.css";
 import "./normalize.css"
 import localFont from "next/font/local";
 import Header from "./components/main/header";
+import { config } from '@fortawesome/fontawesome-svg-core';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+config.autoAddCss = false;
 
 const islamicFont = localFont({
   src: "./fonts/islamic.ttf",

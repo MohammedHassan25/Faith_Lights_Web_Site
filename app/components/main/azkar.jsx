@@ -11,12 +11,12 @@ export default function Azkar() {
       />
       <div className="flex justify-center items-center h-screen w-screen relative z-10">
         <div className="flex justify-between items-center flex-wrap w-full text-neutral-200 text-shadow-white main">
-          <h1 className="text-8xl font-bold mt-5">الأذكار</h1>
+          <h1 className="text-8xl font-bold mt-5 font">الأذكار</h1>
           <p className="text-4xl para font-semibold">
             متوفر الآن بعض الأدعية والأذكار المهمة مثل أذكار الصباح والمساء
             وأذكار دخول المسجد وغيرها
           </p>
-          <button class="bg-cyan-500 shadow-lg shadow-cyan-500/50 mx-auto p-6 w-40 rounded-2xl text-2xl font-bold ">
+          <button class="bg-cyan-500 shadow-lg shadow-cyan-500/50 mx-auto p-6 w-40 rounded-2xl text-2xl font-bold media">
             <a href="/azkar">الأذكار</a>
           </button>
         </div>
@@ -26,11 +26,6 @@ export default function Azkar() {
           alt="azkar"
         />
       </div>
-      <img
-        className="absolute circle-bottom"
-        src="./img/circle.png"
-        alt="circle"
-      />
     </div>
   );
 }
