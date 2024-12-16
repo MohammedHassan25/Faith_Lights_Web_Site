@@ -1,0 +1,39 @@
+.text-shadow-yellow {
+  text-shadow: 2px 2px 8px rgba(252, 211, 77, 0.5);
+}
+.text-shadow-white {
+  text-shadow: 1px 1px 5px white;
+}
+
+.transform--50 {
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+}
+
+.cssanimation, .cssanimation span {
+  animation-duration: 5s;
+  animation-fill-mode: both;
+}
+
+.cssanimation span { display: inline-block }
+
+.open-azkar {
+  width: 80%;
+  margin: 0 auto;
+  animation-name: open;
+  line-height: 1.3;
+  overflow: hidden;
+  line-height: 1.7;
+}
+@keyframes open {
+  from { width: 0 }
+}
+
+@media (max-width: 932px) {
+  .landing {
+    font-size: 80px;
+  }
+}

@@ -8,7 +8,6 @@ import {
 
 export default function Footer() {
   let date = new Date().getFullYear();
-  console.log(date);
   return (
     <>
       <div className="flex justify-center items-center flex-col h-80 bg-footerBackground bg-cover bg-center relative">

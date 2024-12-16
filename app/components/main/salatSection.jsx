@@ -1,5 +1,5 @@
 import "./salat.css";
-export default function Salat() {
+export default function SalatSection() {
   return (
     <div className="h-screen bg-salatBackground bg-cover bg-center">
       <div className="h-screen absolute w-full bg-black opacity-40 "></div>

@@ -1,6 +1,7 @@
+import Link from "next/link";
 import "./azkar.css";
 
-export default function Azkar() {
+export default function AzkarSection() {
   return (
     <div className=" bg-azkarBackground bg-cover bg-center	 h-screen bg-slate-900 relative overflow-hidden">
       <div className="h-screen absolute w-full bg-black opacity-40 "></div>
@@ -17,7 +18,7 @@ export default function Azkar() {
             وأذكار دخول المسجد وغيرها
           </p>
           <button class="bg-cyan-500 shadow-lg shadow-cyan-500/50 mx-auto p-6 w-40 rounded-2xl text-2xl font-bold media">
-            <a href="/azkar">الأذكار</a>
+            <Link href="/azkar">الأذكار</Link>
           </button>
         </div>
         <img

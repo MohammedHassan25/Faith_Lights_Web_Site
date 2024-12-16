@@ -1,6 +1,7 @@
 "use client";
 import { useRef, useState } from "react";
 import "./header.css";
+import Link from "next/link";
 export default function Header() {
   const [openMenu, setOpenMenu] = useState(false);
   const menuIcon = useRef(null);
@@ -26,30 +27,30 @@ export default function Header() {
           ref={menu}
           className={`${openMenu ? "flex" : "hidden"} justify-between w-3/6 menu `}
         >
-          <a
+          <Link
             className={`${openMenu ? "hover:bg-blue-800 " : null} link font-bold text-neutral-200 text-shadow-white font-islamic hover:text-yellow-200`}
             href="./"
           >
             الصفحة الرئيسية
-          </a>
-          <a
+          </Link>
+          <Link
             className={`${openMenu ? "hover:bg-blue-800 " : null} link font-bold text-neutral-200 text-shadow-white font-islamic hover:text-yellow-200`}
-            href="./Azkar"
+            href="./azkar/"
           >
             الأذكار
-          </a>
-          <a
+          </Link>
+          <Link
             className={`${openMenu ? "hover:bg-blue-800 " : null} link font-bold text-neutral-200 text-shadow-white font-islamic hover:text-yellow-200`}
-            href="./Salat"
+            href="/Salat"
           >
             مواقيت الصلاة
-          </a>
-          <a
+          </Link>
+          <Link
             className={`${openMenu ? "hover:bg-blue-800 " : null} link font-bold text-neutral-200 text-shadow-white font-islamic hover:text-yellow-200`}
-            href="./WhoWeAre"
+            href="/WhoWeAre"
           >
             من نحن ؟
-          </a>
+          </Link>
         </nav>
       </div>
     </header>
