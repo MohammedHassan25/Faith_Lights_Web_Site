@@ -14,7 +14,7 @@ export default function SalatSection() {
             <a href="/azkar">مواقيت الصلاة</a>
           </button>
         </div>
-        <img className="h-full display" src="./img/salat.png" alt="azkar" />
+        <img className="h-full display" src="./img/salat.webp" alt="azkar" />
       </div>
     </div>
   );

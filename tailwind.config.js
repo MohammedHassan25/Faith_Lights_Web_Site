@@ -24,10 +24,10 @@ module.exports = {
         },
       },
       backgroundImage: {
-        mainBackground: `url(/img/main-background.png)`,
-        azkarBackground: `url(/img/azkar-bg.jpg)`,
-        salatBackground: `url(/img/salat-bg.jpg)`,
-        footerBackground: `url(/img/footer-bg.jpg)`
+        mainBackground: `url(/img/main-background.webp)`,
+        azkarBackground: `url(/img/azkar-bg.webp)`,
+        salatBackground: `url(/img/salat-bg.webp)`,
+        footerBackground: `url(/img/footer-bg.webp)`
       },
       fontFamily: {
         islamic: ["var(--font-islamic)", "sans-serif"], // استخدام متغير CSS الذي عرفته

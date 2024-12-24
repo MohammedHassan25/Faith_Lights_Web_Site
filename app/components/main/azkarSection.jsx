@@ -23,7 +23,7 @@ export default function AzkarSection() {
         </div>
         <img
           className="h-full w-full display"
-          src="./img/azkar.png"
+          src="./img/azkar.webp"
           alt="azkar"
         />
       </div>
