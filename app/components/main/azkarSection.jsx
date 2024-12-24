@@ -7,7 +7,7 @@ export default function AzkarSection() {
       <div className="h-screen absolute w-full bg-black opacity-40 "></div>
       <img
         className="absolute circle-top"
-        src="./img/circle.png"
+        src="./img/circle.webp"
         alt="circle"
       />
       <div className="flex justify-center items-center h-screen w-screen relative z-10">
