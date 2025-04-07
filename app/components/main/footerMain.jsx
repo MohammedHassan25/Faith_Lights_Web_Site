@@ -7,7 +7,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
-  let date = new Date().getFullYear();
+  let date = new Date().getUTCFullYear();
   return (
     <>
       <div className="flex justify-center items-center flex-col h-80 bg-footerBackground bg-cover bg-center relative">
