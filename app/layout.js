@@ -2,10 +2,10 @@ import localFont from "next/font/local";
 import "./globals.css";
 import "./normalize.css"
 import localFont from "next/font/local";
-import Header from "./components/main/header";
+import Header from "./components/main/Header";
 import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
-import Footer from "./components/main/footerMain";
+import Footer from "./components/main/Footer";
 config.autoAddCss = false;
 
 const islamicFont = localFont({
@@ -25,11 +25,11 @@ export default function RootLayout({ children }) {
         <link rel="icon" sizes="32x32" href="./img/kaaba.png" />
       </head>
       <body
-        className={/*`${geistSans.variable} ${geistMono.variable}*/ `${islamicFont.variable}`}
+        className={`${islamicFont.variable}`}
       >
-        <Header/>
+        <Header />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );

@@ -1,7 +1,7 @@
-import AzkarSection from "./components/main/azkarSection.jsx";
-import Hadith from "./components/main/hadith.jsx";
-import Landing from "./components/main/landing.jsx";
-import SalatSection from "./components/main/salatSection.jsx";
+import AzkarSection from "./components/main/AzkarSection.jsx";
+import Hadith from "./components/main/Hadith.jsx";
+import Landing from "./components/main/Landing.jsx";
+import SalatSection from "./components/main/SalatSection.jsx";
 
 
 
