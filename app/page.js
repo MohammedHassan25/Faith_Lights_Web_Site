@@ -1,7 +1,7 @@
-import AzkarSection from "./components/main/AzkarSection.jsx";
-import Hadith from "./components/main/Hadith.jsx";
-import Landing from "./components/main/Landing.jsx";
-import SalatSection from "./components/main/SalatSection.jsx";
+import AzkarSection from "./components/MainPage/AzkarSection.jsx";
+import Hadith from "./components/MainPage/Hadith.jsx";
+import Landing from "./components/MainPage/Landing.jsx";
+import SalatSection from "./components/MainPage/SalatSection.jsx";
 
 
 
@@ -11,8 +11,8 @@ export default function Home() {
     <>
       <Landing />
       <Hadith />
-      <AzkarSection/>
-      <SalatSection/>
+      <AzkarSection />
+      <SalatSection />
     </>
   );
 }

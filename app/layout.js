@@ -2,10 +2,10 @@ import localFont from "next/font/local";
 import "./globals.css";
 import "./normalize.css"
 import localFont from "next/font/local";
-import Header from "./components/main/Header";
+import Header from "./components/MainPage/Header";
 import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
-import Footer from "./components/main/Footer";
+import Footer from "./components/MainPage/Footer";
 config.autoAddCss = false;
 
 const islamicFont = localFont({
