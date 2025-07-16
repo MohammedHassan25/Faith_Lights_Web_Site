@@ -10,7 +10,7 @@ export default function Footer() {
   let date = new Date().getUTCFullYear();
   return (
     <>
-      <div className="flex justify-center items-center flex-col h-80 bg-footerBackground bg-cover bg-center relative">
+      <div className="flex justify-center items-center flex-col h-80 bg-footerBackground bg-cover bg-center relative" loading="lazy">
         <div className="h-80 absolute w-full bg-black opacity-50"></div>
         <div className="z-10">
           <h1 className="font-black text-neutral-200 text-shadow-white font-islamic text-center">

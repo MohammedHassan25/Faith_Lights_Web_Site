@@ -6,7 +6,6 @@ import SalatSection from "./components/MainPage/SalatSection.jsx";
 
 
 export default function Home() {
-  console.log(Landing)
   return (
     <>
       <Landing />

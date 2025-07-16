@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" sizes="32x32" href="./img/kaaba.png" />
       </head>
       <body
-        className={`${islamicFont.variable}`}
+        className={`${islamicFont.variable} font-islamic`}
       >
         <Header />
         {children}

@@ -1,12 +1,15 @@
 import "./salat.css";
 export default function SalatSection() {
   return (
-    <div className="h-screen bg-salatBackground bg-cover bg-center">
+    <div
+      className="h-screen bg-salatBackground bg-cover bg-center"
+      loading="lazy"
+    >
       <div className="h-screen absolute w-full bg-black opacity-40 "></div>
       <div className="flex justify-center items-center h-screen relative z-10">
-        <div className="flex justify-between items-center flex-wrap text-neutral-200 text-shadow-white main">
+        <div className="flex justify-center flex-wrap items-center text-center text-neutral-200 text-shadow-white main">
           <h1 className="text-6xl font-bold">مواقيت الصلاة</h1>
-          <p className="text-4xl para leading-3 font-semibold">
+          <p className="text-xl leading-[1.8] lg:text-4xl lg:leading-[1.8] sm:text-3xl sm:leading-[1.8]  mb-20 font-semibold">
             دلوقتي تقدر تعرف مواقيت الصلاة بكل سهولة ودقة من أي مكان وفي أي وقت
             علشان يساعدك على تنظيم وقتك والالتزام بصلاتك
           </p>
@@ -14,7 +17,6 @@ export default function SalatSection() {
             <a href="/azkar">مواقيت الصلاة</a>
           </button>
         </div>
-        <img className="h-full display" src="./img/salat.webp" alt="azkar" />
       </div>
     </div>
   );

@@ -14,7 +14,7 @@
 }
 
 .cssAnimation, .cssAnimation span {
-  animation-duration: 5s;
+  animation-duration: 3s;
   animation-fill-mode: both;
 }
 

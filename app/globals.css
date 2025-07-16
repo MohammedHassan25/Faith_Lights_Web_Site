@@ -3,9 +3,6 @@
 @tailwind utilities;
 
 
-:root {
-}
-
 body {
   direction: rtl;
   box-sizing: border-box;
