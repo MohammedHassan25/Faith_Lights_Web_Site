@@ -9,7 +9,7 @@ export default function SalatSection() {
       <div className="flex justify-center items-center h-screen relative z-10">
         <div className="flex justify-center flex-wrap items-center text-center text-neutral-200 text-shadow-white main">
           <h1 className="text-6xl font-bold">مواقيت الصلاة</h1>
-          <p className="text-xl leading-[1.8] lg:text-4xl lg:leading-[1.8] sm:text-3xl sm:leading-[1.8]  mb-20 font-semibold">
+          <p className="text-3xl leading-[1.8] lg:text-4xl lg:leading-[1.8] sm:text-3xl sm:leading-[1.8]  mb-20 font-semibold">
             دلوقتي تقدر تعرف مواقيت الصلاة بكل سهولة ودقة من أي مكان وفي أي وقت
             علشان يساعدك على تنظيم وقتك والالتزام بصلاتك
           </p>
