@@ -3,7 +3,6 @@ import { useState } from "react";
 export function AzkarCard(props) {
   const { azkarText, count } = props;
   const [counter, setCounter] = useState(count === undefined ? 1 : count);
-  console.log(counter);
   return (
     <div
       className={
