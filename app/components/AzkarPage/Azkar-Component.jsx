@@ -1,3 +1,5 @@
+"use client";
+
 import { useEffect, useState } from "react";
 import { AzkarCard } from "./AzkarCard";
 
@@ -11,7 +13,9 @@ export default function AzkarComponent() {
       .then((data) => {
         setAzkarData(data);
       })
-      .catch((err) => console.error("Failed to fetch Azkar data:", err));
+      .catch((error) => {
+        console.error("Error fetching Azkar data:", error);
+      });
   }, []);
 
   return (

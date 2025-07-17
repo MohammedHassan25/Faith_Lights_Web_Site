@@ -13,7 +13,7 @@ export default function SalatSection() {
             دلوقتي تقدر تعرف مواقيت الصلاة بكل سهولة ودقة من أي مكان وفي أي وقت
             علشان يساعدك على تنظيم وقتك والالتزام بصلاتك
           </p>
-          <button class="bg-cyan-500 shadow-lg shadow-cyan-500/50 mx-auto p-6 w-50 rounded-2xl text-2xl font-bold media">
+          <button className="bg-cyan-500 shadow-lg shadow-cyan-500/50 mx-auto p-6 w-50 rounded-2xl text-2xl font-bold media">
             <a href="/azkar">مواقيت الصلاة</a>
           </button>
         </div>
