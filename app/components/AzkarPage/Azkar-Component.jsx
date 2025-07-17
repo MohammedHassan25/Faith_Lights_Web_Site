@@ -4,7 +4,7 @@ import { azkar } from "./fetchAzkar";
 
 export default function AzkarComponent() {
   const azkarData = use(azkar);
-  const [select, setSelect] = useState(0);
+  const [ select, setSelect ] = useState(0);
 
   return (
     <>
