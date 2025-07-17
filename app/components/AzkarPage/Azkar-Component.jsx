@@ -1,10 +1,18 @@
-import { use, useState } from "react";
+import { useEffect, useState } from "react";
 import { AzkarCard } from "./AzkarCard";
-import { azkar } from "./fetchAzkar";
 
 export default function AzkarComponent() {
-  const azkarData = use(azkar);
-  const [ select, setSelect ] = useState(0);
+  const [azkarData, setAzkarData] = useState([]);
+  const [select, setSelect] = useState(0);
+
+  useEffect(() => {
+    fetch("/json/Azkar.json")
+      .then((res) => res.json())
+      .then((data) => {
+        setAzkarData(data);
+      })
+      .catch((err) => console.error("Failed to fetch Azkar data:", err));
+  }, []);
 
   return (
     <>
