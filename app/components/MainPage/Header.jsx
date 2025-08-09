@@ -25,28 +25,38 @@ export default function Header() {
         </div>
         <nav
           ref={menu}
-          className={`${openMenu ? "flex" : "hidden"} justify-between w-3/6 menu `}
+          className={`${
+            openMenu ? "flex" : "hidden"
+          } justify-between w-3/6 menu `}
         >
           <Link
-            className={`${openMenu ? "hover:bg-blue-800 " : null} link font-bold text-neutral-200 text-shadow-white font-islamic hover:text-yellow-200`}
+            className={`${
+              openMenu ? "hover:bg-blue-800 " : null
+            } link font-bold text-neutral-200 text-shadow-white font-islamic hover:text-yellow-200`}
             href="./"
           >
             الصفحة الرئيسية
           </Link>
           <Link
-            className={`${openMenu ? "hover:bg-blue-800 " : null} link font-bold text-neutral-200 text-shadow-white font-islamic hover:text-yellow-200`}
+            className={`${
+              openMenu ? "hover:bg-blue-800 " : null
+            } link font-bold text-neutral-200 text-shadow-white font-islamic hover:text-yellow-200`}
             href="./azkar/"
           >
             الأذكار
           </Link>
           <Link
-            className={`${openMenu ? "hover:bg-blue-800 " : null} link font-bold text-neutral-200 text-shadow-white font-islamic hover:text-yellow-200`}
-            href="/Salat"
+            className={`${
+              openMenu ? "hover:bg-blue-800 " : null
+            } link font-bold text-neutral-200 text-shadow-white font-islamic hover:text-yellow-200`}
+            href="/salat"
           >
             مواقيت الصلاة
           </Link>
           <Link
-            className={`${openMenu ? "hover:bg-blue-800 " : null} link font-bold text-neutral-200 text-shadow-white font-islamic hover:text-yellow-200`}
+            className={`${
+              openMenu ? "hover:bg-blue-800 " : null
+            } link font-bold text-neutral-200 text-shadow-white font-islamic hover:text-yellow-200`}
             href="/WhoWeAre"
           >
             من نحن ؟
