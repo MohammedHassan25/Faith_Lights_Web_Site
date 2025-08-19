@@ -1,3 +1,4 @@
+import Link from "next/link";
 import "./salat.css";
 export default function SalatSection() {
   return (
@@ -14,7 +15,7 @@ export default function SalatSection() {
             علشان يساعدك على تنظيم وقتك والالتزام بصلاتك
           </p>
           <button className="bg-cyan-500 shadow-lg shadow-cyan-500/50 mx-auto p-6 w-50 rounded-2xl text-2xl font-bold media">
-            <a href="/azkar">مواقيت الصلاة</a>
+            <Link href="/salat">مواقيت الصلاة</Link>
           </button>
         </div>
       </div>
