@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      textShadow: {
+        white: '0 0 5px rgba(255,255,255,0.8)',
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
@@ -34,5 +37,7 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-textshadow'),
+  ],
 };

@@ -20,7 +20,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="mdl-js">
       <head>
         <link rel="icon" sizes="32x32" href="./img/kaaba.png" />
       </head>

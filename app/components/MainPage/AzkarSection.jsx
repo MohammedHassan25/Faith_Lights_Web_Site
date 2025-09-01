@@ -12,7 +12,7 @@ export default function AzkarSection() {
             متوفر الآن بعض الأدعية والأذكار المهمة مثل أذكار الصباح والمساء
             وأذكار دخول المسجد وغيرها
           </p>
-          <button className="bg-cyan-500 shadow-lg shadow-cyan-500/50 mx-auto p-6 w-40 rounded-2xl text-2xl font-bold media">
+          <button className="bg-blue-600 shadow-lg shadow-blue-600/50 mx-auto p-6 w-40 rounded-2xl text-2xl font-bold media">
             <Link href="/azkar">الأذكار</Link>
           </button>
         </div>
