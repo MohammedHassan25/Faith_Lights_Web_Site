@@ -1,7 +1,7 @@
 export function SalatCard(props) {
   const { salat, time } = props;
   return (
-    <div className="flex-1 p-8 font-bold text-2xl text-center bg-blue-600 max-w-[300px] min-w-[300px] h-[192.29px] rounded-lg transition duration-300 ease-in-out hover:bg-blue-500 hover:scale-105">
+    <div className="h-[192.29px] min-w-[250px] max-w-[300px] flex-1 rounded-lg bg-blue-600 p-8 text-center text-2xl font-bold transition duration-300 ease-in-out hover:scale-105 hover:bg-blue-500">
       <h1 className="text-neutral-200 text-shadow-white">{salat}</h1>
       <p className="text-neutral-200 text-shadow-white">{time}</p>
     </div>

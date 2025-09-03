@@ -175,7 +175,7 @@ function SalatTimes() {
   }, [city, country]);
 
   return (
-    <div className="p-8 font-bold text-2xl text-center">
+    <div className="p-8 text-center text-2xl font-bold">
       <div>
         <q className="text-6xl">
           إِنَّ الصَّلَاةَ كَانَتْ عَلَى الْمُؤْمِنِينَ كِتَابًا مَوْقُوتًا
@@ -188,8 +188,8 @@ function SalatTimes() {
       </div>
       <div
         className={clsx(
-          "w-70  mt-5 mb-5 flex justify-around items-center m-auto xl:flex-row flex-col gap-4 md:gap-4  ",
-          { "pb-40": !city || !country }
+          "w-70 m-auto mb-5 mt-5 flex flex-col items-center justify-around gap-4 md:gap-4 xl:flex-row",
+          { "pb-40": !city || !country },
         )}
       >
         <Select
@@ -218,14 +218,14 @@ function SalatTimes() {
       {error && <p className="text-red-500">{error}</p>}
 
       {country && city && (
-        <div className="transition-all duration-300 ease-in-out opacity-100">
+        <div className="opacity-100 transition-all duration-300 ease-in-out">
           <p className="mt-2.5">
             الدولة: {country.label} - المدينة: {city.label}
           </p>
 
           <p className="mt-1.5 text-lg">التاريخ: {dateReadable || "—"}</p>
 
-          <div className="flex flex-wrap justify-center items-center gap-10 mt-8 w-full ">
+          <div className="mt-8 flex w-full flex-wrap items-center justify-center gap-10">
             <SalatCard salat={"الفجر"} time={timings?.Fajr} />
             <SalatCard salat={"الظهر"} time={timings?.Dhuhr} />
             <SalatCard salat={"العصر"} time={timings?.Asr} />
