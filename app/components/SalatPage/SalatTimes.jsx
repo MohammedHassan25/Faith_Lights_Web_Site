@@ -97,7 +97,11 @@ function SalatTimes() {
     Tunisia: [{ value: "Tunis", label: "تونس العاصمة" }],
     Libya: [{ value: "Tripoli", label: "طرابلس" }],
     Jordan: [{ value: "Amman", label: "عمّان" }],
-    Palestine: [{ value: "Jerusalem", label: "القدس" }],
+    Palestine: [
+      { value: "Jerusalem", label: "القدس" },
+      { value: "Ramallah", label: "رام الله" },
+      { value: "Gaza", label: "غزة" },
+    ],
     Lebanon: [{ value: "Beirut", label: "بيروت" }],
     Syria: [{ value: "Damascus", label: "دمشق" }],
     Iraq: [{ value: "Baghdad", label: "بغداد" }],
