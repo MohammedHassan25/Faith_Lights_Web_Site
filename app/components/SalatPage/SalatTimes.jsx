@@ -188,7 +188,7 @@ function SalatTimes() {
       </div>
       <div
         className={clsx(
-          "w-80 mt-5 mb-5 flex justify-around items-center m-auto md:flex-row flex-col gap-4 md:gap-4 md:w-[1000px] ",
+          "w-70  mt-5 mb-5 flex justify-around items-center m-auto xl:flex-row flex-col gap-4 md:gap-4  ",
           { "pb-40": !city || !country }
         )}
       >
